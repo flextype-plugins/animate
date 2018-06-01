@@ -51,9 +51,11 @@ __delay__ - set animation delay (seconds). Default value is 0
 
 possible values: Number from 0 to 20
 
+
 __inline__ - this parameter determines what HTML tag will be used for animation wrapper. Turn this option to YES and animated element will be wrapped in SPAN instead of DIV. Useful for inline animations, like buttons. Default value is no
 
 possible values: yes or no
+
 
 __class__ - Additional CSS class name(s) separated by space(s)
 
