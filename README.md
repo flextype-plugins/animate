@@ -23,39 +23,39 @@ Basic usage
 [animate]Text with animation[/animate]
 ```
 
-Usage with options
+Usage with parameters
 ```
 [animate type="pulse" duration=1 delay=0 inline="yes" class="class-name"]Text with animation[/animate]
 ```
 
-Options
+#### Parameters
 
-| Option name            | Possible values          | Default value             |
-| :--------------------- | :--------------------    | -----------------------   |
-| arta                   | ascetic                  | atelier-dune.dark         |
-| atelier-dune.light     | atelier-forest.dark      | atelier-forest.light      |
-| atelier-heath.dark     | atelier-heath.light      | atelier-lakeside.dark     |
-| atelier-lakeside.light | atelier-seaside.dark     | atelier-seaside.light     |
-| brown_paper            | codepen-embed            | color-brewer              |
-| dark                   | default                  | docco                     |
-| far                    | foundation               | github                    |
-| googlecode             | hybrid                   | idea                      |
-| ir_black               | kimbie.dark              | kimbie.light              |
-| learn                  | magula                   | mono-blue                 |
-| monokai_sublime        | monokai                  | obsidian                  |
-| paraiso.dark           | paraiso.light            | pojoaque                  |
-| railscasts             | rainbow                  | school_book               |
-| solarized_dark         | solarized_light          | sunburst                  |
-| tomorrow-night-blue    | tomorrow-night-bright    | tomorrow-night-eighties   |
-| tomorrow-night         | tomorrow                 | vs                        |
-| xcode                  | zenburn                  |                           |
-| agate                  | androidstudio            | atelier-cave.dark         |
-| atelier-cave.light     | atelier-estuary.dark     | atelier-estuary.light     |
-| atelier-plateau.dark   | atelier-plateau.light    | atelier-savanna.dark      |
-| atelier-savanna.light  | atelier-sulphurpool.dark | atelier-sulphurpool.light |
-| darkula                | github-gist              | pojoaque                  |
-| school_bank            |                          |                           |
+__type__ - set animation type. Default value is bounceIn
 
+possible values:
+
+bounce, flash, pulse, rubberBand, shake, headShake, swing, tada, wobble, jello, bounceIn, bounceInDown,
+bounceInLeft, bounceInRight, bounceInUp, bounceOut, bounceOutDown, bounceOutLeft, bounceOutRight, bounceOutUp,
+fadeIn, fadeInDown, fadeInDownBig, fadeInLeft, fadeInLeftBig, fadeInRight, fadeInRightBig, fadeInUp,
+fadeInUpBig, fadeOut,fadeOutDown, fadeOutDownBig, fadeOutLeft, fadeOutLeftBig, fadeOutRight, fadeOutRightBig,
+fadeOutUp,fadeOutUpBig,flipInX,flipInY flipOutX,flipOutY,lightSpeedIn,lightSpeedOut,
+rotateIn, rotateInDownLeft, rotateInDownRight, rotateInUpLeft, rotateInUpRight, rotateOut, rotateOutDownLeft, rotateOutDownRight, rotateOutUpLeft, rotateOutUpRight, hinge, jackInTheBox, rollIn, rollOut, zoomIn, zoomInDown zoomInLeft, zoomInRight, zoomInUp, zoomOut, zoomOutDown, zoomOutLeft, zoomOutRight, zoomOutUp, slideInDown, slideInLeft, slideInRight, slideInUp, slideOutDown, slideOutLeft, slideOutRight, slideOutUp 
+
+
+__duration__ - set animation duration (seconds). Default value is 1
+
+possible values: Number from 0 to 20
+
+
+__delay__ - set animation delay (seconds). Default value is 0
+
+possible values: Number from 0 to 20
+
+__inline__ - this parameter determines what HTML tag will be used for animation wrapper. Turn this option to YES and animated element will be wrapped in SPAN instead of DIV. Useful for inline animations, like buttons. Default value is no
+
+possible values: yes or no
+
+__class__ - Additional CSS class name(s) separated by space(s)
 
 ## Usage in the template
 
