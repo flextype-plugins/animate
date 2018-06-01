@@ -1,0 +1,13 @@
+name: Youtube
+version: 1.0.0
+description: "Youtube plugins allows you to insert YouTube videos into the page."
+author:
+  name: Sergey Romanenko
+  email: awilum@yandex.ru
+  url: http://flextype.org
+homepage: https://github.com/flextype-plugins/youtube
+bugs: https://github.com/flextype-plugins/youtube/issues
+license: MIT
+
+# Plugin settings
+enabled: true
