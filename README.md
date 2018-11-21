@@ -1,20 +1,12 @@
 # Animate Plugin for [Flextype](http://flextype.org/)
-![version](https://img.shields.io/badge/version-1.0.0-brightgreen.svg?style=flat-square)
-![Flextype](https://img.shields.io/badge/Flextype-0.x-green.svg?style=flat-square)
+![version](https://img.shields.io/badge/version-1.0.1-brightgreen.svg?style=flat-square)
+![Flextype](https://img.shields.io/badge/Flextype-0.7.0-green.svg?style=flat-square)
 ![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)
 
 Animate plugin allows you to animate almost everything on your site with help of powerful animate.css library.
 
 ## Installation
-1. Unzip plugin to the folder `/site/plugins/`
-2. Go to `/site/config/site.yaml` and add plugin name to plugins section.
-3. Save your changes.
-
-Example:
-```
-plugins:
-  - animate
-```
+Unzip plugin to the folder `/site/plugins/`
 
 ## Usage in page content
 
@@ -39,7 +31,7 @@ bounceInLeft, bounceInRight, bounceInUp, bounceOut, bounceOutDown, bounceOutLeft
 fadeIn, fadeInDown, fadeInDownBig, fadeInLeft, fadeInLeftBig, fadeInRight, fadeInRightBig, fadeInUp,
 fadeInUpBig, fadeOut,fadeOutDown, fadeOutDownBig, fadeOutLeft, fadeOutLeftBig, fadeOutRight, fadeOutRightBig,
 fadeOutUp,fadeOutUpBig,flipInX,flipInY flipOutX,flipOutY,lightSpeedIn,lightSpeedOut,
-rotateIn, rotateInDownLeft, rotateInDownRight, rotateInUpLeft, rotateInUpRight, rotateOut, rotateOutDownLeft, rotateOutDownRight, rotateOutUpLeft, rotateOutUpRight, hinge, jackInTheBox, rollIn, rollOut, zoomIn, zoomInDown zoomInLeft, zoomInRight, zoomInUp, zoomOut, zoomOutDown, zoomOutLeft, zoomOutRight, zoomOutUp, slideInDown, slideInLeft, slideInRight, slideInUp, slideOutDown, slideOutLeft, slideOutRight, slideOutUp 
+rotateIn, rotateInDownLeft, rotateInDownRight, rotateInUpLeft, rotateInUpRight, rotateOut, rotateOutDownLeft, rotateOutDownRight, rotateOutUpLeft, rotateOutUpRight, hinge, jackInTheBox, rollIn, rollOut, zoomIn, zoomInDown zoomInLeft, zoomInRight, zoomInUp, zoomOut, zoomOutDown, zoomOutLeft, zoomOutRight, zoomOutUp, slideInDown, slideInLeft, slideInRight, slideInUp, slideOutDown, slideOutLeft, slideOutRight, slideOutUp
 
 
 __duration__ - set animation duration (seconds). Default value is 1
@@ -72,4 +64,4 @@ enabled: true # or `false` to disable the plugin
 ```
 
 ## License
-See [LICENSE](https://github.com/flextype-plugins/youtube/blob/master/LICENSE)
+See [LICENSE](https://github.com/flextype-plugins/animate/blob/master/LICENSE)

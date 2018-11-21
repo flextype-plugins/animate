@@ -1,13 +1,10 @@
-name: Youtube
-version: 1.0.0
-description: "Youtube plugins allows you to insert YouTube videos into the page."
+name: Animate
+version: 1.0.1
+description: "Animate plugin allows you to animate almost everything on your site with help of powerful animate.css library."
 author:
   name: Sergey Romanenko
   email: awilum@yandex.ru
   url: http://flextype.org
-homepage: https://github.com/flextype-plugins/youtube
-bugs: https://github.com/flextype-plugins/youtube/issues
+homepage: https://github.com/flextype-plugins/animate
+bugs: https://github.com/flextype-plugins/animate/issues
 license: MIT
-
-# Plugin settings
-enabled: true

@@ -2,7 +2,7 @@
 
 /**
  *
- * Flextype Youtube Plugin
+ * Flextype Animate Plugin
  *
  * @author Romanenko Sergey / Awilum <awilum@yandex.ru>
  * @link http://flextype.org
@@ -20,7 +20,7 @@ use Flextype\Component\Event\Event;
 // Add listner for onThemeHeader event
 //
 Event::addListener('onThemeHeader', function () {
-   echo('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">');
+   echo(' <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">');
 });
 
 
