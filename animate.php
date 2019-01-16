@@ -28,7 +28,7 @@ Event::addListener('onThemeHeader', function () {
 Event::addListener('onShortcodesInitialized', function () {
 
     // Shortcode: [animate]Text to animate[/animate]
-    Content::shortcode()->addHandler('animate', function(ShortcodeInterface $s) {
+    Entries::shortcode()->addHandler('animate', function(ShortcodeInterface $s) {
 
         if ($s->getParameter('inline') == 'yes') {
             $tag = 'span';
